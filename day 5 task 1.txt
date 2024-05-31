@@ -1,0 +1,48 @@
+1)CREATE YOUR OWN RESUME IN JSON FORMAT
+
+let myResume={
+    "basics": {
+      "name": "K.Praveena",
+      "email": "praveenakannan.p@gmail.com",
+      "phone": 8838448500,
+      "degree": "BSC",
+      "location": {
+        "address": "21, singara velar st,nemmeli kuppam",
+        "pinCode": 603104,
+        "district": "Chengalpattu",
+        "state": "Tamilnadu",
+        "country": "India"
+      },
+      
+    },
+    
+    "education": [
+      {
+        "institution": "Prof.Dhanapalan college of arts and science",
+        "department": "Computer science",
+        "studyType": "fulltime",
+        "batch start year": 2016,
+        "batch end year": 2019
+        
+      }
+    ],
+    "skills": [
+      {
+        "name": "javascript",
+        "level": "beginer",
+        
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil,English",
+      }
+    ],
+    "hobbies": [
+      {
+        "name": "reading, drawing,hearing music",
+      }
+    ]
+  }
+  console.log(myResume);
+  
